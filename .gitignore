@@ -1,0 +1,29 @@
+# ---- .NET ----
+bin/
+obj/
+*.user
+[Dd]ebug/
+[Rr]elease/
+*.dll
+!**/wwwroot/**/*.dll
+
+# ---- Node / Next.js ----
+node_modules/
+frontend/.next/
+frontend/out/
+frontend/.turbo/
+npm-debug.log*
+yarn-error.log*
+
+# ---- Environment / secrets ----
+.env
+.env.local
+.env.*.local
+*.pfx
+
+# ---- IDE / OS ----
+.vs/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
